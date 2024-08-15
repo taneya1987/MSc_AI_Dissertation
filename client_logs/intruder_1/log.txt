@@ -1,0 +1,8 @@
+2024-08-15 16:59:32.876682 - intruder_1:> <
+2024-08-15 16:59:34.160896 - Received file: malformed_file.txt
+2024-08-15 16:59:35.812545 - Received file: malformed_file.txt
+2024-08-15 16:59:38.490003 - intruder_1:> malformed message
+2024-08-15 16:59:40.350213 - intruder_1:> malformed message
+2024-08-15 16:59:43.291317 - intruder_1:> malformed message
+2024-08-15 16:59:44.719536 - Received file: malformed_file.txt
+2024-08-15 16:59:47.122052 - intruder_1:> Connection closed by client: intruder_1 (('10.77.202.1', 52752))
