@@ -1,11 +1,17 @@
 # MSc_AI_Dissertation
-# Secured Communication Schemes for UAVs in 5G:  Lattice-Based Post-Quantum Encryption (CRYSTALS-Kyber) and IDS
+# Title: Secured Communication Schemes for UAVs in 5G:  Lattice-Based Post-Quantum Encryption (CRYSTALS-Kyber) and IDS
 
 ## Abstract
 
 This project explores secure communication between UAVs and ground stations using AES encryption, combined with Elliptic Curve Cryptography (ECC) and CRYSTALS-Kyber key encapsulation, within a 5G environment. Addressing ECC's vulnerability to quantum attacks, CRYSTALS-Kyber is proposed as a quantum-resistant alternative. The system integrates Artificial Intelligence (AI) for intrusion detection, aiming for minimal computational demands. Performance evaluations of ECC and CRYSTALS-Kyber in VPN and 5G environments showed similar metrics, with CRYSTALS-Kyber providing quantum attack protection. AI-based Intrusion Detection System (IDS) experiments highlighted Logistic Regression and XGBoost as top performers, with future work focusing on drone deployment and blockchain integration.
 
 ![image](https://github.com/user-attachments/assets/920bba9e-bc1b-4d97-9c03-5cbd99a367ea)
+
+## Project Architecture
+
+The architecture of this project simulates Unmanned Aerial Vehicles (UAVs) as clients and a Ground Station as the server to ensure secure communication between them. The system uses a combination of Advanced Encryption Standard (AES) for encryption and key encapsulation mechanisms like Elliptic Curve Cryptography (ECC) and CRYSTALS-Kyber. The central server manages multiple client connections, where each client (simulated UAV) can choose between ECC or CRYSTALS-Kyber for secure key exchange. Encrypted data, including video, audio, and image files, are transmitted from the clients to the server (simulated Ground Station), where the data is decrypted. Additionally, an Intrusion Detection System (IDS) is integrated using AI models to detect potential intruders by monitoring traffic patterns and anomalies. The architecture is designed to be lightweight and efficient, making it suitable for deployment on Single Board Computers (SBCs) like Raspberry Pi. The system also logs various performance metrics to assess the effectiveness of different encryption and AI models, ensuring robust security in both VPN and 5G environments.
+
+![image](https://github.com/user-attachments/assets/957acb00-c40d-4d1c-acfc-a1628068d243)
 
 ## Encryption
 
