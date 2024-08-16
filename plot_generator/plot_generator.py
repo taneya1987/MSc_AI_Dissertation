@@ -298,7 +298,6 @@ def linegraph_vpn():
 
 
 def ai_ids_ex1():
-    import matplotlib.pyplot as plt
 
     # Data from the table
     models = [
@@ -334,7 +333,6 @@ def ai_ids_ex1():
 
 
 def ai_ids_ex2():
-    import matplotlib.pyplot as plt
 
     # Data from the table
     models = [
@@ -370,7 +368,6 @@ def ai_ids_ex2():
 
 
 def ai_ids_ex3():
-    import matplotlib.pyplot as plt
 
     # Data from the table
     models = [
@@ -406,7 +403,6 @@ def ai_ids_ex3():
 
 
 def ai_ids_ex4():
-    import matplotlib.pyplot as plt
 
     # Data from the table
     models = [
