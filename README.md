@@ -30,7 +30,10 @@ The project integrates an Intrusion Detection System (IDS) to enhance the securi
 
 The IDS was evaluated across multiple experiments with datasets of varying sizes and client-to-intruder ratios. Initial experiments with 26,000 records showed that Logistic Regression achieved high accuracy (89.50%) and a strong Area Under Curve (AUC) score (0.97) in detecting intruders within a 70-30 client-intruder ratio. Further testing with larger datasets (200,000 records) and different ratios demonstrated that XGBoost performed exceptionally well, achieving an accuracy of 97.33% and an AUC of 0.94 in the most challenging 93-7 client-intruder ratio scenario. The system's robust performance indicates its potential effectiveness in real-world deployments for intrusion detection in secure UAV communications.
 
-## Below steps provide the usage of 
+<img width="1092" alt="image" src="https://github.com/user-attachments/assets/0f232f50-ce13-4ffa-8a3e-ef9cb55f5013">
+
+
+## Below steps provide the usage of the repository:
 
 1- Checkout repository.
 
