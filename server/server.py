@@ -31,10 +31,17 @@ print(f"server listening on {SERVER_HOST}:{SERVER_PORT}")
 
 
 def measure_cpu_memory():
-    cpu_usage = psutil.cpu_percent(interval=1)  # CPU usage as a percentage
-    memory_usage = psutil.virtual_memory().used  # Memory usage in bytes
-    memory_usage_mb = memory_usage / (1024 * 1024)  # Convert to MB
-    return cpu_usage, memory_usage_mb
+
+    # Get the current process of the application
+    process = psutil.Process(os.getpid())
+
+    # CPU usage as a percentage of one CPU core
+    cpu_usage = process.cpu_percent(interval=1)
+
+    # Memory usage in MB
+    memory_usage = process.memory_info().rss / (1024 * 1024)  # Resident Set Size (RSS)
+
+    return cpu_usage, memory_usage
 
 
 def handle_client(client_socket, client_addr):
