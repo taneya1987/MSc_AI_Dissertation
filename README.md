@@ -46,6 +46,8 @@ The IDS was evaluated across multiple experiments with datasets of varying sizes
 2- Install below packages:
 
 	pip install tqdm psutil pycryptodome cryptography
+ 
+ 	git clone https://github.com/GiacomoPope/kyber-py.git
 
 3- Update server and client files with correct IP Addresses. Update port as well if the mentioned one is in use.
 
