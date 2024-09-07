@@ -1,0 +1,5 @@
+tqdm
+psutil
+pycryptodome
+cryptography
+git clone https://github.com/GiacomoPope/kyber-py.git
